@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 define('BASE_API_URL', $api);
-$endpoint = '/home';
+$endpoint = '/api/v2/hianime/home';
 $apiUrl = BASE_API_URL . $endpoint;
 
 $response = file_get_contents($apiUrl);
