@@ -1,6 +1,6 @@
 <?php 
 
-$conn = new mysqli("empty-sphynx-2956", "sgroot", "pq8-PE0telbm33AO", "DATABASE");
+$conn = new mysqli("empty-sphynx-2956", "sgroot", "pq8-PE0telbm33AO", "Animatrix");
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
